@@ -1,0 +1,65 @@
+
+.smiling {
+    position: relative;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 225px;
+    height: 225px;
+    background: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 22.5px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.eye-smiling {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    animation: eye-smiling 2s linear infinite;
+}
+
+@keyframes eye-smiling {
+    0% {
+        transform: scale(.2);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(.2);
+    }
+}
+
+.eye-smiling:nth-child(1) {
+    left: 60%;
+    top: 25%;
+}
+
+.eye-smiling:nth-child(2) {
+    left: 20%;
+    top: 25%;
+}
+
+.mouth-smiling {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-bottom: 15px solid white;
+    left: 15%;
+    top: 10%;
+    border-radius: 50%;
+    animation: smile-smiling 2s linear infinite;
+}
+
+@keyframes smile-smiling {
+    0% {
+        border-bottom: 0px solid white;
+    }
+    100% {
+        border-bottom: 15px solid white;
+    }
+}

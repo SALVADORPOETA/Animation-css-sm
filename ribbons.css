@@ -1,0 +1,90 @@
+.ribbons {
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.span-ribbons {
+    position: absolute;
+    border: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    animation: anim-ribbons 2s ease-in-out infinite;
+}
+
+@keyframes anim-ribbons {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.span-ribbons:nth-child(1) {
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    border-bottom-color: red;
+    border-top-color: red;
+    animation-delay: .1s;
+}
+
+.span-ribbons:nth-child(2) {
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    border-bottom-color: orange;
+    border-top-color: orange;
+    animation-delay: .2s;
+}
+
+.span-ribbons:nth-child(3) {
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    border-bottom-color: yellow;
+    border-top-color: yellow;
+    animation-delay: .3s;
+}
+
+.span-ribbons:nth-child(4) {
+    left: 30px;
+    bottom: 30px;
+    right: 30px;
+    border-bottom-color: green;
+    border-top-color: green;
+    animation-delay: .4s;
+}
+
+.span-ribbons:nth-child(5) {
+    left: 40px;
+    bottom: 40px;
+    right: 40px;
+    border-bottom-color: blue;
+    border-top-color: blue;
+    animation-delay: .5s;
+}
+
+.span-ribbons:nth-child(6) {
+    left: 50px;
+    bottom: 50px;
+    right: 50px;
+    border-bottom-color: indigo;
+    border-top-color: indigo;
+    animation-delay: .7s;
+}
+
+.span-ribbons:nth-child(7) {
+    left: 60px;
+    bottom: 60px;
+    right: 60px;
+    border-bottom-color: violet;
+    border-top-color: violet;
+    animation-delay: .8s;
+}

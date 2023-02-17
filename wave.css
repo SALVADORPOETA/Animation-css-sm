@@ -1,0 +1,114 @@
+
+.wave {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    transform-style: preserve-3d;
+    transform: rotateX(60deg);
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.span-wave {
+    position: absolute;
+    border: 15px solid transparent;
+    border-top-color: lightgreen;
+    border-bottom-color: white;
+    animation: anim-wave 6s linear infinite;
+}
+
+@keyframes anim-wave {
+    0% {
+        transform: rotateY(360deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotateX(360deg);
+        border-radius: 50%;
+    }
+}
+
+.span-wave:nth-child(1) {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    animation-delay: 1s;
+}
+
+.span-wave:nth-child(2) {
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    animation-delay: .9s;
+}
+
+.span-wave:nth-child(3) {
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    animation-delay: .8s;
+}
+
+.span-wave:nth-child(4) {
+    left: 30px;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    animation-delay: .7s;
+}
+
+.span-wave:nth-child(5) {
+    left: 40px;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    animation-delay: .6s;
+}
+
+.span-wave:nth-child(6) {
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    animation-delay: .5s;
+}
+
+.span-wave:nth-child(7) {
+    left: 60px;
+    top: 60px;
+    right: 60px;
+    bottom: 60px;
+    animation-delay: .4s;
+}
+
+.span-wave:nth-child(8) {
+    left: 70px;
+    top: 70px;
+    right: 70px;
+    bottom: 70px;
+    animation-delay: .3s;
+}
+
+.span-wave:nth-child(9) {
+    left: 80px;
+    top: 80px;
+    right: 80px;
+    bottom: 80px;
+    animation-delay: .2s;
+}
+
+.span-wave:nth-child(10) {
+    left: 90px;
+    top: 90px;
+    right: 90px;
+    bottom: 90px;
+    animation-delay: .1s;
+}

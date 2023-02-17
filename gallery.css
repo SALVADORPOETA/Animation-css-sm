@@ -1,0 +1,59 @@
+.gallery {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+        rotateZ(30deg);
+    transform-style: preserve-3d;
+    width: 160px;
+    height: 160px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.span-gallery {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 5px 25px;
+    border-radius: 50%;
+    animation: anim-gallery 4s ease-in-out infinite;
+}
+
+@keyframes anim-gallery {
+    0% {
+        transform: translateY(-95px) scale(.1);
+    }
+    25% {
+        transform: translateZ(70px) scale(1);
+    }
+    50% {
+        transform: translateY(95px) scale(.1);
+    }
+    75% {
+        transform: translateZ(-70px) scale(1);
+    }
+    100% {
+        transform: translateY(-95px) scale(.1);
+    }
+}
+
+.span-gallery:nth-child(1) {
+    background: url('http://miracomohacerlo.com/wp-content/uploads/2016/10/Fotos-de-paisajes.jpg');
+    background-size: cover;
+    animation-delay: 0s;
+}
+
+.span-gallery:nth-child(2) {
+    background: url('https://st.depositphotos.com/3095291/4120/i/600/depositphotos_41209319-stock-photo-beach-at-sunset.jpg');
+    background-size: cover;
+    animation-delay: 1s;
+}
+
+.span-gallery:nth-child(3) {
+    background: url('https://i.pinimg.com/550x/c4/76/27/c476278504682e622fabe9b0932098c3.jpg');
+    background-size: cover;
+    animation-delay: 3s;
+}
