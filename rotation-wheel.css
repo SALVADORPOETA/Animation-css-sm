@@ -9,8 +9,8 @@
     border: 20px solid white;
     border-radius: 50%;
     animation: anim-rotation-wheel 3s linear infinite;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 30%;
+    margin-bottom: 30%;
 }
 
 @keyframes anim-rotation-wheel {
