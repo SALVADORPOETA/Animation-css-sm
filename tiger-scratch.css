@@ -3,10 +3,10 @@
     position: relative;
     margin-top: 10%;
     margin-bottom: 10%;
-    width: 250px;
-    height: 250px;
-    left: 10%;
-    top: 10%;
+    width: 200px;
+    height: 200px;
+    left: 20%;
+    top: 5%;
 }
 
 .loader {
@@ -28,43 +28,43 @@
 }
 
 .loader:nth-child(1) {
-    width: 250px;
-    height: 250px;
-    border-bottom: 20px solid violet;
+    width: 200px;
+    height: 200px;
+    border-bottom: 8px solid violet;
 }
 
 .loader:nth-child(2) {
-    width: 225px;
-    height: 225px;
-    border-bottom: 10px solid indigo;
+    width: 180px;
+    height: 180px;
+    border-bottom: 8px solid indigo;
 }
 
 .loader:nth-child(3) {
-    width: 225px;
-    height: 225px;
-    border-bottom: 10px solid blue;
+    width: 180px;
+    height: 180px;
+    border-bottom: 8px solid blue;
 }
 
 .loader:nth-child(4) {
-    width: 175px;
-    height: 175px;
-    border-bottom: 10px solid green;
+    width: 140px;
+    height: 140px;
+    border-bottom: 8px solid green;
 }
 
 .loader:nth-child(5) {
-    width: 150px;
-    height: 150px;
-    border-bottom: 10px solid orange;
+    width: 120px;
+    height: 120px;
+    border-bottom: 8px solid orange;
 }
 
 .loader:nth-child(6) {
-    width: 125px;
-    height: 125px;
-    border-bottom: 10px solid red;
+    width: 100px;
+    height: 100px;
+    border-bottom: 8px solid red;
 }
 
 .loader:nth-child(7) {
-    width: 100px;
-    height: 100px;
-    border-bottom: 10px solid pink;
+    width: 80px;
+    height: 80px;
+    border-bottom: 8px solid pink;
 }

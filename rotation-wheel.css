@@ -1,12 +1,12 @@
 
 .rotation-wheel {
     position: relative;
-    left: 20%;
+    left: 25%;
     top: 10%;
     transform: translate(-50%, -50%);
-    width: 200px;
-    height: 200px;
-    border: 20px solid white;
+    width: 160px;
+    height: 160px;
+    border: 16px solid white;
     border-radius: 50%;
     animation: anim-rotation-wheel 3s linear infinite;
     margin-top: 30%;
@@ -29,10 +29,10 @@
     position: absolute;
     left: -25%;
     top: 45%;
-    height: 20px;
-    width: 300px;
+    height: 16px;
+    width: 240px;
     background: white;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .span-rotation-wheel:nth-child(1) {

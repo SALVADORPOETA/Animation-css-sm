@@ -6,8 +6,8 @@
     transform: translate(-50%, -50%)
         rotateX(60deg);
     transform-style: preserve-3d;
-    width: 300px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -39,121 +39,121 @@
 }
 
 .span-square-wave:nth-child(2) {
-    left: 10px;
-    top: 10px;
-    bottom: 10px;
-    right: 10px;
+    left: 8px;
+    top: 8px;
+    bottom: 8px;
+    right: 8px;
     animation-delay: 0.2s;
 }
 
 .span-square-wave:nth-child(3) {
-    left: 20px;
-    top: 20px;
-    bottom: 20px;
-    right: 20px;
+    left: 16px;
+    top: 16px;
+    bottom: 16px;
+    right: 16px;
     animation-delay: 0.3s;
 }
 
 .span-square-wave:nth-child(4) {
-    left: 30px;
-    top: 30px;
-    bottom: 30px;
-    right: 30px;
+    left: 24px;
+    top: 24px;
+    bottom: 24px;
+    right: 24px;
     animation-delay: 0.4s;
 }
 
 .span-square-wave:nth-child(5) {
-    left: 40px;
-    top: 40px;
-    bottom: 40px;
-    right: 40px;
+    left: 32px;
+    top: 32px;
+    bottom: 32px;
+    right: 32px;
     animation-delay: 0.5s;
 }
 
 .span-square-wave:nth-child(6) {
-    left: 50px;
-    top: 50px;
-    bottom: 50px;
-    right: 50px;
+    left: 40px;
+    top: 40px;
+    bottom: 40px;
+    right: 40px;
     animation-delay: 0.6s;
 }
 
 .span-square-wave:nth-child(7) {
-    left: 60px;
-    top: 60px;
-    bottom: 60px;
-    right: 60px;
+    left: 48px;
+    top: 48px;
+    bottom: 48px;
+    right: 48px;
     animation-delay: 0.7s;
 }
 
 .span-square-wave:nth-child(8) {
-    left: 70px;
-    top: 70px;
-    bottom: 70px;
-    right: 70px;
+    left: 56px;
+    top: 56px;
+    bottom: 56px;
+    right: 56px;
     animation-delay: 0.8s;
 }
 
 .span-square-wave:nth-child(9) {
-    left: 80px;
-    top: 80px;
-    bottom: 80px;
-    right: 80px;
+    left: 64px;
+    top: 64px;
+    bottom: 64px;
+    right: 64px;
     animation-delay: 0.9s;
 }
 
 .span-square-wave:nth-child(10) {
-    left: 90px;
-    top: 90px;
-    bottom: 90px;
-    right: 90px;
+    left: 72px;
+    top: 72px;
+    bottom: 72px;
+    right: 72px;
     animation-delay: 1s;
 }
 
 .span-square-wave:nth-child(11) {
-    left: 100px;
-    top: 100px;
-    bottom: 100px;
-    right: 100px;
+    left: 80px;
+    top: 80px;
+    bottom: 80px;
+    right: 80px;
     animation-delay: 1.2s;
 }
 
 .span-square-wave:nth-child(12) {
-    left: 110px;
-    top: 110px;
-    bottom: 110px;
-    right: 110px;
+    left: 88px;
+    top: 88px;
+    bottom: 88px;
+    right: 88px;
     animation-delay: 1.2s;
 }
 
 .span-square-wave:nth-child(13) {
-    left: 120px;
-    top: 120px;
-    bottom: 120px;
-    right: 120px;
+    left: 96px;
+    top: 96px;
+    bottom: 96px;
+    right: 96px;
     animation-delay: 1.3s;
 }
 
 .span-square-wave:nth-child(14) {
-    left: 130px;
-    top: 130px;
-    bottom: 130px;
-    right: 130px;
+    left: 104px;
+    top: 104px;
+    bottom: 104px;
+    right: 104px;
     animation-delay: 1.4s;
 }
 
 .span-square-wave:nth-child(15) {
-    left: 140px;
-    top: 140px;
-    bottom: 140px;
-    right: 140px;
+    left: 112px;
+    top: 112px;
+    bottom: 112px;
+    right: 112px;
     animation-delay: 1.5s;
 }
 
 .span-square-wave:nth-child(16) {
-    left: 150px;
-    top: 150px;
-    bottom: 150px;
-    right: 150px;
+    left: 120px;
+    top: 120px;
+    bottom: 120px;
+    right: 120px;
     animation-delay: 1.6s;
 }

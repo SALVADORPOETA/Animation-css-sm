@@ -2,9 +2,9 @@
     position: relative;
     margin-top: 20%;
     margin-bottom: 10%;
-    width: 300px;
-    height: 300px;
-    top: 50%;
+    width: 200px;
+    height: 200px;
+    top: 20%;
     left: 40%;
     transform: translate(-50%, -50%);
 }
@@ -15,8 +15,8 @@
     position: absolute;
     margin: 0;
     padding: 0;
-    top: 30%;
-    left: 55%;
+    top: 80%;
+    left: 75%;
     width: 300px;
     height: 25px;
     transform: translate(-50%, -50%);
@@ -55,14 +55,14 @@ video {
     transform: scaleX(-1);
     position: absolute;
     width: 250px;
-    top: -20%;
+    top: 10%;
     left: 15%;
 }
 
 ul {
     position: absolute;
     left: 18%;
-    top: 45%;
+    top: 85%;
     display: flex;
 }
 
